@@ -1,0 +1,31 @@
+contrato_id,cliente_id,categoria_produto,subtipo,ano,mes,data_adesao,valor_mensal,status
+4,2,consorcio,Veículo Leve,2026,5,2026-05-06,553.22,ativo
+5,3,consorcio,Motocicleta,2026,2,2026-02-13,1224.33,cancelado
+19,9,consorcio,Motocicleta,2026,3,2026-03-20,3006.02,ativo
+30,16,consorcio,Veículo Leve,2025,4,2025-04-10,1582.96,ativo
+36,20,consorcio,Veículo Leve,2026,4,2026-04-19,2680.66,ativo
+42,22,consorcio,Motocicleta,2025,6,2025-06-27,1466.32,ativo
+45,24,consorcio,Imóvel,2025,4,2025-04-12,782.54,ativo
+47,25,consorcio,Motocicleta,2026,5,2026-05-26,444.02,ativo
+49,26,consorcio,Imóvel,2026,6,2026-06-06,2093.72,ativo
+60,34,consorcio,Imóvel,2026,4,2026-04-27,1922.4,ativo
+80,48,consorcio,Motocicleta,2026,6,2026-06-06,2079.8,ativo
+90,53,consorcio,Veículo Leve,2026,4,2026-04-23,1935.2,ativo
+106,63,consorcio,Veículo Leve,2026,5,2026-05-07,465.62,ativo
+108,65,consorcio,Veículo Leve,2025,2,2025-02-21,1454.85,ativo
+116,70,consorcio,Motocicleta,2025,5,2025-05-14,649.66,ativo
+151,92,consorcio,Veículo Leve,2025,1,2025-01-10,1444.57,ativo
+165,100,consorcio,Motocicleta,2025,5,2025-05-16,2477.09,cancelado
+171,105,consorcio,Veículo Leve,2025,6,2025-06-18,1409.43,ativo
+183,112,consorcio,Motocicleta,2026,1,2026-01-13,2655.41,ativo
+184,113,consorcio,Motocicleta,2025,4,2025-04-08,3372.32,cancelado
+193,117,consorcio,Veículo Leve,2026,4,2026-04-22,1695.37,ativo
+199,120,consorcio,Motocicleta,2025,1,2025-01-21,2463.09,ativo
+200,121,consorcio,Veículo Leve,2025,1,2025-01-08,1388.41,ativo
+205,124,consorcio,Veículo Leve,2026,2,2026-02-09,442.76,ativo
+217,132,consorcio,Veículo Pesado,2025,6,2025-06-02,1310.6,suspenso
+223,136,consorcio,Imóvel,2025,1,2025-01-17,3153.49,ativo
+228,141,consorcio,Motocicleta,2026,1,2026-01-03,3417.66,ativo
+233,143,consorcio,Imóvel,2026,1,2026-01-27,2043.08,ativo
+240,146,consorcio,Veículo Leve,2025,1,2025-01-25,2333.21,cancelado
+242,147,consorcio,Motocicleta,2026,5,2026-05-16,3180.81,ativo

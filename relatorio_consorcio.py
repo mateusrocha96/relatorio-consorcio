@@ -1,7 +1,7 @@
 import pandas as pd
 
-df_consorcio = pd.read_csv("consorcio_detalhes.csv")
-df_contrato = pd.read_csv("produtos_contratados.csv")
+df_consorcio = pd.read_csv("dados_exemplo/consorcio_detalhes.csv")
+df_contrato = pd.read_csv("dados_exemplo/produtos_contratados.csv")
 
 df_merge = df_consorcio.merge(df_contrato, on="contrato_id")
 df_consorcio_filtrado = df_merge[df_merge["categoria_produto"] == "consorcio"]

@@ -6,20 +6,31 @@ Base sintética simulando operação de consórcio e cartões PF.
 
 ## O que ele faz
 
-1. Lê os arquivos `consorcio_detalhes.csv` e `produtos_contratados.csv`
+1. Lê `consorcio_detalhes.csv` e `produtos_contratados.csv` da pasta `dados_exemplo/`
 2. Cruza as bases por `contrato_id`
 3. Calcula volume, média de valor de carta e clientes distintos por mês
 4. Exporta `relatorio_consorcio.xlsx` com duas abas: Comparativo Jun e YTD Jan-Jun
 
-## Arquivos necessários
+## Estrutura de pastas
 
-- `consorcio_detalhes.csv`
-- `produtos_contratados.csv`
+```
+relatorio-consorcio/
+├── dados_exemplo/
+│   ├── consorcio_detalhes.csv
+│   └── produtos_contratados.csv
+├── relatorio_consorcio.py
+├── .gitignore
+└── README.md
+```
 
 ## Como rodar
-
-Coloque os dois arquivos na mesma pasta do script e execute:
 
 ```
 python relatorio_consorcio.py
 ```
+
+O arquivo `relatorio_consorcio.xlsx` será gerado na mesma pasta do script.
+
+## Substituindo pelos seus dados
+
+Substitua os arquivos em `dados_exemplo/` pelos seus próprios CSVs, mantendo os mesmos nomes de colunas.
